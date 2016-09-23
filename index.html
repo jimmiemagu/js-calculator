@@ -1,0 +1,46 @@
+<! DOCTYPE html>
+<htm>
+<head>
+	<title>web page</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="icon"  href="Calculator.ico">
+
+</head>
+<body>
+<div id="frame">
+  <h3>SIMPLE CALC</h3>
+  <hr>
+  <form id = "keys">
+      <input id ="screen" type ="text"/>
+  <br>
+  <br>
+      <input type ="button" value = " 1 " onclick="keys.screen.value +='1'"/>
+      <input type ="button" value = " 2 " onclick="keys.screen.value +='2'"/>
+      <input type ="button" value = " 3 " onclick="keys.screen.value +='3'"/>
+      <input type ="button" value = " + " onclick="keys.screen.value +='+'"/>
+      <br><br>
+
+      <input type ="button" value = " 4 " onclick="keys.screen.value +='4'"/>
+      <input type ="button" value = " 5 " onclick="keys.screen.value +='5'"/>
+      <input type ="button" value = " 6 " onclick="keys.screen.value +='6'"/>
+      <input type ="button" value = " - " onclick="keys.screen.value +='-'"/>
+      <br><br>
+      <input type ="button" value = " 7 " onclick="keys.screen.value +='7'"/>
+      <input type ="button" value = " 8 " onclick="keys.screen.value +='8'"/>
+      <input type ="button" value = " 9 " onclick="keys.screen.value +='9'"/>
+      <input type ="button" value = " x " onclick="keys.screen.value +='*'"/>
+      <br><br>
+
+      <input type ="button" value = " 0 " onclick="keys.screen.value +='0'"/>
+      <input type ="button" value = " . " onclick="keys.screen.value +='.'"/>
+      <input type ="button" value = " / " onclick="keys.screen.value +='/'"/>
+      <input type = "button" value = "="  onclick ="keys.screen.value = eval(keys.screen.value)"/>
+      <br><br>
+
+      <input id="can" type ="button" value = " c " onclick="keys.screen.value =''"/>
+
+      
+  </form>
+</div>
+</body>
+</html>

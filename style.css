@@ -1,0 +1,40 @@
+div#frame{
+	background-color: green;
+	height: 430px;
+	width: 400px;
+	border-radius: 5px;
+	border: 2px solid black;
+	margin-left: 440px;
+}
+input[type=text]{
+	padding: 4px;
+	height: 60px;
+	width: 380px;
+	margin-left: 10px;
+	border-radius: 4px;
+	font-weight: 900;
+	font-size: 20px;
+	text-align: right;
+}
+input[type = button]{
+	margin-left: 10px;
+	font-weight: 900;
+	background-color: gray;
+	border-radius: 2px;
+	padding: 7px;
+	width:20%;
+}
+h3{
+	font-family: calibri;
+	text-align: center;
+	position: relative;
+}
+hr{
+	color: black;
+}
+#can{
+	background-color: orange;
+	margin-left: 157px;
+	border-radius: 8px;
+	padding-top: 2px;
+}
